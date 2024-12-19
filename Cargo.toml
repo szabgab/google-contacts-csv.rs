@@ -2,6 +2,12 @@
 name = "google-contacts-csv"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Struct defined to hold the contact information from the Google contact file"
+keywords = ["serde", "deserialize", "google", "csv"]
+categories = ["data-structures"]
+readme = "README.md"
+repository = "https://github.com/szabgab/google-contacts-csv.rs"
 
 [dependencies]
 serde = { version = "1.0.216", features = ["derive"] }
